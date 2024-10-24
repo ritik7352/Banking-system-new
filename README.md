@@ -3,34 +3,18 @@
  The system is designed to keep data persistent across sessions using file storage. It utilizes object-oriented programming principles to encapsulate account management within an Account class and the overall banking operations in a Bank class.
  The code includes error handling to manage financial constraints like maintaining a minimum account balance.
  
-Input:-
-
-The user interacts with the banking system through a menu-driven interface, providing inputs based on the operation they wish to perform. These inputs include: 
-
-Account Creation:
-
-First Name 
-
-Last Name
-
-Initial Balance
+Input:-Account Creation,First Name ,Last Name,Initial Balance
 
 Account Operations:-
-Account Number (for accessing a specific account)
+Account Number (for accessing a specific account),Amount for deposit or withdrawal
 
-Amount for deposit or withdrawal
-
-Menu Selection:-
-Choice of operation (Open Account, Deposit, Withdraw, etc.)
+Menu Selection:-Choice of operation (Open Account, Deposit, Withdraw, etc.)
 
 Output:-
 
-The program provides various outputs in response to user actions:
-
 Account Details: Displays account information, including account number, first name, last name, and balance.
 
-Transaction Confirmation:
-Confirmation of successful deposit or withdrawal.
+Transaction Confirmation:-Confirmation of successful deposit or withdrawal.
 
 Error message if a withdrawal request would cause the balance to fall below the minimum limit.
 
